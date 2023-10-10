@@ -7,12 +7,15 @@
     <link rel="stylesheet" href="/flask_app/static/style.css">
     <title>Login</title>
 </head>
-<body style="display: flex;">
+<body>
     <div>
-        <a href="/index"><button class="btn btn-dark">Home</button></a>
-        <a href="/register"><button class="btn btn-dark">Register</button></a>
+        <div >
+            <a href="/index"><button class="btn btn-dark">Home</button></a>
+        </div>
+        <div class="nav justify-content-end" style="margin-top: -40px;">
+            <a href="/register"><button class="btn btn-dark">Register</button></a>
+        </div>
     </div>
-    </form>
     <form action='/login/access', method="POST" class="col-6 mx-auto">
         <h1>Login</h1>
 

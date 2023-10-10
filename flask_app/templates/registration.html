@@ -8,8 +8,10 @@
 </head>
 <body>
     <div>
-        <a href="/index"><button>Home</button></a>
-        <a href="/login"><button>Login</button></a>
+        <a href="/index"><button class="btn btn-dark">Home</button></a>
+        <div class="nav justify-content-end" style="margin-top: -40px;">
+            <a href="/login"><button class="btn btn-dark">Login</button></a>
+        </div>
     </div>
     <form action='/register/new_user', method="POST" class="col-6 mx-auto">
         <h1>Resgister</h1>
@@ -34,7 +36,7 @@
             <label for="confirm_password">Confirm Password</label>
             <input type="password" name="confirm_password" class="form-control">
         </div>
-            <button>register</button>
+            <button class="btn btn-dark">register</button>
     </form>
 </body>
 </html>
